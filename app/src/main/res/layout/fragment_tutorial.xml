@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nonasoft.grupo2_desarrollodesoftware.TutorialFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/entendido"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/este_es_un_nuevo_tutorial"
+        android:textSize="35sp"/>
+
+</FrameLayout>
