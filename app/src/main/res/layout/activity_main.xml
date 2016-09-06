@@ -3,32 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.app.nonasoft.grupo2_desarrollodesoftware.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NonaSoft"
-        android:textSize="45sp"
-        />
-
+        android:text="Nonasoft es una aplicacion que te ayudara, mediante tutoriales didacticos, aprender el manejo basico de tu celular."
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-    />
+        android:background="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
+        android:id="@+id/iniciarBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/comenzar"
+        android:text="comenzar"
+        android:background="#0172ff"
+        android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>

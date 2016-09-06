@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Grupo2_Desarrollo de Software</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="entendido">entendido</string>
     <string name="este_es_un_nuevo_tutorial">Este es un nuevo tutorial</string>
     <string name="comenzar">comenzar</string>
+    <string name="Nonasoft" />
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tutorial_part">tutorialPart</string>
 </resources>
